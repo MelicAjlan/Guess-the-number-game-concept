@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Simple guessing game</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+	<p id="title">I think a number, try to guess it!</p>
+	<span id="guess">Your guess:</span><input type="text" id="input" value="">
+	<p id="clue"></p>
+
+	<button id="btn" onClick="makeGuess()">Guess</button>
+	<button id="reload" onClick="window.location.reload();" style="visibility: hidden;">Play again</button>
+	
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
